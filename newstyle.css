@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* CSS RESET */
+* {
+    /* list-style: none; */
+    text-decoration: none;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    /* padding: 0; */
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+
+}
+
+.container {
+    display: flex;
+    background-color: lightpink;
+
+}
+
+
+.top-nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* NAVIGATION */
+.container .nav-bar {
+
+    width: 50%;
+    text-align: center;
+    font-weight: bolder;
+    gap: 90px;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar ul li {
+    margin: 20px 10px;
+    font-size: 0.8rem;
+    list-style: none;
+}
+
+.nav-bar ul li a {
+    color: black;
+}
+
+.nav-bar ul li a:hover {
+    color: purple;
+
+}
+
+/* HOME */
+.main__container {
+    display: flex;
+}
+
+.left__subcontainer {
+    margin: auto 0;
+    width: 50%;
+    text-align: center;
+    height: fit-content;
+    background-color: white;
+}
+
+.right__subcontainer {
+    width: 40%;
+}
+
+.right__subcontainer .left img {
+    width: 125%;
+}
+
+.left__subcontainer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    border-top: 0cap;
+}
+
+.button {
+    margin: 60px 0 0 0;
+}
+
+.button button {
+    color: black;
+    size: 1vh;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding: 20px;
+    border-radius: 20px;
+    background: white;
+    border-color: palevioletred;
+    cursor: pointer;
+    transition: all 0.6s ease;
+
+}
+
+.button button:hover {
+    border-color: plum;
+    background-color: whitesmoke;
+    color: crimson;
+    font-weight: bolder;
+}
+
+.left__subcontainer img {
+    height: 30px;
+    width: 20px;
+}
+
+.about__container {
+    display: flex;
+}
+
+.about__container .about__left__container {
+    width: 50%;
+}
+
+.about__container .about__right__container {
+    width: 50%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about__container h1 {
+    color: pink;
+    margin: 50px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about-container p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about__right__container .content__p {
+    margin: 110px 0 0 0;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.content__container {
+    display: flex;
+}
+
+.content__container h1 {
+    color: pink;
+    text-align: center;
+}
+
+.content__left__container {
+    width: 50%;
+}
+
+.content__left__container ul {
+    margin-left: 174px;
+}
+
+.content__left__container ul li {
+    margin-bottom: 60px;
+}
+
+.content__left__container ul li:first-child {
+    margin-top: 10px;
+}
+
+.content__right__container {
+    width: 50%;
+}
+
+.content__right__container ul {
+    margin-left: 183px;
+}
+
+.content__right__container ul li {
+    margin-bottom: 60px;
+}
+
+.content__right__container ul li:first-child {
+    margin-top: 10px;
+}
+
+.services__container {
+    display: flex;
+}
+
+.services__left__container img {
+    width: 100%;
+}
+
+.services__left__container {
+    width: 50%;
+}
+
+.services__right__container {
+    width: 50%;
+}
+
+.services__right__container h1 {
+    color: pink;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.services__right__container ul {
+    margin-left: 50px;
+}
+
+.services__right__container ul li {
+    margin: 23px 0;
+}
+
+/* .left-subcontainer {
+    width: 50%;
+    height: fit-content;
+    background-color: white;
+}
+
+.left-subcontainer p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-subcontainer p {
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    border-top: 0cap;
+}
+
+.button button {
+    color: black;
+    size: 1vh;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding: 20px;
+    border-radius: 20px;
+    background: white;
+    border-color: palevioletred;
+    cursor: pointer;
+    transition: all 0.6s ease;
+
+}
+
+.button button:hover {
+    border-color: plum;
+    background-color: whitesmoke;
+    color: crimson;
+    font-weight: bolder;
+}
+
+.left-subcontainer img {
+    height: 30px;
+    width: 20px;
+}
+
+.about-container .left-cont {
+    width: 50%;
+    background-color: #fff;
+}
+
+.about-container .right-cont {
+    width: 50%;
+    background-color: red;
+}
+
+.about-container p1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about-container p2 {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
